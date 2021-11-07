@@ -1,16 +1,56 @@
 :root {
+  --heading-color: #07beb8;
+  --text-color: #847979;
   --primary: #1d5888;
-  --secondary: #ff993b;
-  --dark: #292929;
+  --secondary: #f55d3e;
+  --dark: #27213c;
   --white: #e2e4e2;
 }
 
-body {
-  color: var(--dark);
+body,
+h4.lead {
+  color: var(--text-color);
+  font-family: trade-gothic-next, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav.navbar {
+  background: var(--dark);
+}
+
+.logo-font {
+  font-family: jeanne-moderno-geometrique, sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
 nav {
   background: var(--dark);
+}
+
+a.btn {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+a.btn:hover {
+  color: var(--white);
+  background: var(--text-color);
+}
+
+button.btn {
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+button.btn:hover {
+  color: var(--white);
+  background: var(--secondary);
+}
+
+h5.border-bottom {
+  border-color: var(--secondary) !important;
 }
 
 footer {
@@ -34,7 +74,10 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--primary);
+  color: var(--heading-color);
+  font-family: josefin-slab, serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .bsicon {
   color: rgb(85, 60, 123);
@@ -48,7 +91,7 @@ h6 {
   color: rgb(227, 76, 38);
 }
 
-.cssicon {
+.css3icon {
   color: rgb(38, 77, 228);
 }
 
