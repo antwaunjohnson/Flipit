@@ -1,2 +1,3 @@
-# JS-Site-Template
-Mini site template for JS projects
+# Flipit
+
+Flipin Easy! A Javascript coding exercise using arrays. A program that takes a string and flips it around

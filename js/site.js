@@ -25,3 +25,7 @@ function showString(revString) {
   ).innerHTML = `Your string flipped aroung is: ${revString}`;
   document.getElementById("alert").classList.remove("invisible");
 }
+
+function resetForm() {
+  document.getElementById("btnReset").reset();
+}
