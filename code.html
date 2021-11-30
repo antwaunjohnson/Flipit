@@ -85,7 +85,7 @@
                             function showString(revString) {
                               document.getElementById(
                                 "message"
-                              ).innerHTML = `Your string flipped aroung is: ${revString}`;
+                              ).innerHTML = `Your string flipped around is: ${revString}`;
                               document.getElementById("alert").classList.remove("invisible");
                             }
 
@@ -97,8 +97,8 @@
                 </div>
                 <div class="col-lg-4">
                     <p>The code is structured in three functions</p>
-                    <h5>getValues</h5>
-                    <p>The <b><em>getValues</em></b> function begins with using the document method
+                    <h5>getValue</h5>
+                    <p>The <b><em>getValue</em></b> function begins with using the document method
                         <b><em>getElementById</em></b> to find the element with the <em>"alert"</em> id and add the
                         class
                         of <em>"invisible"</em> to it. The variable <b>userString</b> calls on the document method
@@ -109,21 +109,21 @@
                     </p>
                     <h5>reverseString</h5>
                     <p>The <b><em>reverseString</em></b> function takes one argument, <em>userString</em>. The function
-                        reverseString is called in the getValue funtion after userString is set. The variable
+                        reverseString is called in the getValue function after userString is set. The variable
                         <b><em>revString</em></b> is set to an empty array. In our for loop the index is set to the
                         length of the userString - 1 to begin the string at the end of the index. As long as the index
                         is great than or equal to zero, the final call of index-- is a call to decrement the count. The
-                        we incramentally add the the index of the <em>userString</em>. Finally we return
+                        we incrementally add the the index of the <em>userString</em>. Finally we return
                         <b><em>revString</em></b>
                     </p>
                     <h5>showString</h5>
                     <p>Finally, the <b><em>showString</em></b> which takes the argument <em>revString</em> is
-                        called. The showString funtion uses the document method getElementById to find the element with
+                        called. The showString function uses the document method getElementById to find the element with
                         the
-                        id of <em>"message"</em>. The propert <em>innerHTML</em> is appendend to the element with the id
+                        id of <em>"message"</em>. The property <em>innerHTML</em> is appended to the element with the id
                         of message. The innerHTML is set to a message that that informs you what the reversed string is.
                         To ensure that the string is dynamic, a template literal is used to call revString. Finally the
-                        document methond is used again to find the element with the id of alert, this time the class of
+                        document method is used again to find the element with the id of alert, this time the class of
                         invisible is removed from the element.
                     </p>
                 </div>
